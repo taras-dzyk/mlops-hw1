@@ -1,0 +1,4 @@
+[core]
+    remote = localstore
+['remote "localstore"']
+    url = /Users/tarasdzyk/projects/set/mlops/mlops-hw1/versioning/dvc_storage
