@@ -1,0 +1,61 @@
+{
+  "id": 12,
+  "result": [
+    {
+      "value": {
+        "choices": [
+          "crocodiles"
+        ]
+      },
+      "id": "WCbE1DgeXf",
+      "from_name": "choice",
+      "to_name": "image",
+      "type": "choices",
+      "origin": "manual"
+    }
+  ],
+  "created_username": " t.dzyk@setuniversity.edu.ua, 2",
+  "created_ago": "0\u00a0minutes",
+  "completed_by": {
+    "id": 2,
+    "first_name": "",
+    "last_name": "",
+    "email": "t.dzyk@setuniversity.edu.ua"
+  },
+  "task": {
+    "id": 72,
+    "data": {
+      "image": "/data/local-files/?d=label-studio/my_data/import/image_0049.jpg"
+    },
+    "meta": {},
+    "created_at": "2025-05-20T12:11:21.710173Z",
+    "updated_at": "2025-05-20T12:11:21.710180Z",
+    "is_labeled": true,
+    "overlap": 1,
+    "inner_id": 28,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": null,
+    "file_upload": null,
+    "comment_authors": []
+  },
+  "was_cancelled": false,
+  "ground_truth": false,
+  "created_at": "2025-05-20T12:36:19.455416Z",
+  "updated_at": "2025-05-20T12:36:19.455435Z",
+  "draft_created_at": null,
+  "lead_time": 3.025,
+  "import_id": null,
+  "last_action": null,
+  "bulk_created": false,
+  "project": 1,
+  "updated_by": 2,
+  "parent_prediction": null,
+  "parent_annotation": null,
+  "last_created_by": null
+}

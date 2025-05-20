@@ -1,0 +1,16 @@
+services:
+  labelstudio:
+    image: heartexlabs/label-studio:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./my_data:/label-studio/my_data             # Локальні дані (як джерело)
+      - ./labelstudio_persistent:/label-studio/data # Папка для збереження даних Label Studio
+    environment:
+      - LABEL_STUDIO_USERNAME=admin
+      - LABEL_STUDIO_PASSWORD=admin
+      - LOCAL_FILES_SERVING_ENABLED=true
+    restart: always
+
+volumes:
+  labelstudio_data:
