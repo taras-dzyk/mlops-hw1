@@ -1,3 +1,3 @@
-versioning/dvc_storage/*.dvc
-versioning/dvc_storage/.cache/
-versioning/dvc_storage/dvc.lock
+versioning/dvc/*.dvc
+versioning/dvc/.cache/
+versioning/dvc/dvc.lock
